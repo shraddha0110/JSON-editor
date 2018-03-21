@@ -1,0 +1,1772 @@
+[
+  {
+    "EventId": 0,
+    "Type": null,
+    "Title": "United Nations Expert Group Meeting on Guidelines and Principles for the Development of Disability Statistics",
+    "Start": "12 JULY 2017",
+    "End": "14 JULY 2017",
+    "CountryCode": "USA",
+    "CountryName": "United States of America",
+    "City": "New York",
+    "Venue": "UN Headquarters, Conference Room E",
+    "Description": "UNSD organized an Expert Group Meeting on the Guidelines and Principles for the Development of Disability Statistics. The objective of the Expert Group Meeting was to provide a platform for participants to identify issues and areas where these guidelines should be revised or further enhanced. The revised publication will enable countries to better meet demands for good quality data for measuring and monitoring progress towards inclusion of persons with disabilities in development programmes. It will take into account the context of the Convention on the Rights of Persons with Disabilities and the 2030 Agenda for Sustainable Development. ",
+    "Contacts": [
+      {
+        "ContactId": 0,
+        "Name": "Margaret Mbogoni",
+        "Phone": "+1 212 963 7845",
+        "Email": "mbogoni@un.org"
+      }
+    ],
+    "Topics": [
+      {
+        "TopicId": 0,
+        "Content": "disability statistics"
+      },
+      {
+        "TopicId": 1,
+        "Content": "Disability"
+      }
+    ],
+    "Image": "meetings/2017/new-york--disability-egm/UN.jpg",
+    "EventDocuments": [
+      {
+        "EventDocumentId": 0,
+        "Title": "Agenda",
+        "URL": "meetings/2017/new-york--disability-egm/Agenda.pdf",
+        "Type": "Document"
+      },
+      {
+        "EventDocumentId": 1,
+        "Title": "Participants",
+        "URL": "meetings/2017/new-york--disability-egm/Participants.pdf",
+        "Type": "Document"
+      }
+    ],
+    "Agendas": [
+      {
+        "AgendaId": 0,
+        "Date": "Wednesday, 12 July 2017",
+        "Items": [
+          {
+            "ItemId": 0,
+            "ItemStart": "9:30",
+            "ItemEnd": "10:00",
+            "itemTitle": "Registration",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 1,
+            "ItemStart": "10:00",
+            "ItemEnd": "10:30",
+            "itemTitle": "Session 1: Opening and administrative matters ",
+            "ItemDescription": null,
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Current Structure of the Guidelines",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 1/UNSD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ItemId": 2,
+            "ItemStart": "10:30",
+            "ItemEnd": "11:30",
+            "itemTitle": "Session 2: International frameworks and their relevance to disability measurement",
+            "ItemDescription": "This session will provide some information on the importance of key international frameworks for the measurement of disability, in terms of: (a) some background information on the process for the development of SDGs, and on disability-related SDG indicators for monitoring progress towards inclusion of persons with disabilities in development programmes; (b) overview of the Convention on the Rights of Persons with Disabilities (CRPD); (c) an introduction to the International Classification of Functioning, Disability and Health (ICF), including the ICF-Y",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation on (a) by UNSD",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 2/UNSD_a.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation on (b) by Division for Social Policy and Development",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 2/UNSD_b.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation on (c) by UNSD",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 2/UNSD_c.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 3,
+            "ItemStart": "11:30",
+            "ItemEnd": "11:45",
+            "itemTitle": "Coffee Break",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 4,
+            "ItemStart": "11:45",
+            "ItemEnd": "13:00",
+            "itemTitle": "Session 3: Planning a data collection on disability – general considerations",
+            "ItemDescription": "The session will cover: (a) key considerations for strengthening national statistical systems for efficient production of data on disability in a well-designed and coordinated national environment that is responsive to national policy needs and priorities, and (b) key issues that have to be considered in the planning and designing of statistical processes for a disability data collection/compilation, covering the entire statistical business process from identifying the need for the data collection/compilation, to dissemination and evaluation of data.  This session will provide a platform for discussing challenges in the production of reliable statistics from all relevant sources that could be used to produce policy-relevant statistics on disability ",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation on (a) by UNESCAP",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 3/UNESCAP.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation on (b) by UNSD",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 3/UNSD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 5,
+            "ItemStart": "13:00",
+            "ItemEnd": "14:30",
+            "itemTitle": "Lunch",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 6,
+            "ItemStart": "14:30",
+            "ItemEnd": "15:45",
+            "itemTitle": "Session 4 –  Sources of data on disability ",
+            "ItemDescription": "The session will cover the different sources of data on disability, including their strengths as well as shortcomings, and how they can be combined: (a) Overview of sources of data on disability, (b) Censuses, (c) Surveys (types of surveys and their design considerations), and (d) Administrative sources",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "(a) Overview of the data sources",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Presentation by UNSD",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/UNSD_(a).pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "(b) Use of censuses to collect data on disability",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Presentation by Jean-Michel Durr (census expert)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/Presentation_JMDurr.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Presentation by India (Office of the Registrar General and Census Commissioner)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/India.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 7,
+            "ItemStart": "15:45",
+            "ItemEnd": "16:00",
+            "itemTitle": "Coffee Break",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 8,
+            "ItemStart": "16:00",
+            "ItemEnd": "17:30",
+            "itemTitle": "Session 4 – Sources of data on disability (Contd.) ",
+            "ItemDescription": "(c) Surveys",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation on the overview of surveys and their design considerations by Rajendra Singh (survey and sampling expert)",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/Presentation_Singh.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentations on national experiences",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Chile (Ministry of Social Development)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/Chile.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Canada (Statistics Canada)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/Canada.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentations by organizations",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "UNICEF",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/UNICEF.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "DHS",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/DHS.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ItemId": 9,
+            "ItemStart": "17:45",
+            "ItemEnd": "19:15",
+            "itemTitle": "Welcome cocktail (DC2-1668)",
+            "ItemDescription": null,
+            "Slots": []
+          }
+        ]
+      },
+      {
+        "AgendaId": 1,
+        "Date": "Thursday, 13 July 2017",
+        "Items": [
+          {
+            "ItemId": 10,
+            "ItemStart": "10:00",
+            "ItemEnd": "11:30",
+            "itemTitle": "Session 4 –  Sources of data on disability (Contd.)",
+            "ItemDescription": null,
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion on (c) Surveys",
+                "Description": null,
+                "SlotDocuments": []
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "(d) Administrative sources",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Presentation on national experience by Sweden",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 4/Sweden.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 11,
+            "ItemStart": "11:30",
+            "ItemEnd": "11:45",
+            "itemTitle": "Coffee break",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 12,
+            "ItemStart": "11:45",
+            "ItemEnd": "12:30",
+            "itemTitle": "Session 5 – Collection of data on disability for children and youth",
+            "ItemDescription": "It is recognized that questions that are used to measure disability among the general population generally underreport the prevalence among children for a variety of reasons. The session is aimed at providing information on the latest developments on tools for the measurement of disability for children and youth.",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation by UNICEF",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 5/UNICEF.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 13,
+            "ItemStart": "12:30",
+            "ItemEnd": "13:00",
+            "itemTitle": "Session 6 – Disability and the role of the environment",
+            "ItemDescription": "The International Classification of Functioning, Disability and Health (ICF), recognizes the critical role of the environment as either a facilitator or barrier to functioning. The session will provide an overview and examples of environmental factors that may be taken into account when measuring functioning and disability, including the use of assistive devices and other assistance",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation by UNSD",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 6/UNSD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 14,
+            "ItemStart": "13:00",
+            "ItemEnd": "15:00",
+            "itemTitle": "Lunch",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 15,
+            "ItemStart": "15:00",
+            "ItemEnd": "16:00",
+            "itemTitle": "Session 7 – Dissemination and utilization of data",
+            "ItemDescription": "Statistical data form an indispensable basis for effective development planning and programme monitoring. It is generally the case, however, that for many countries, the voluminous information collected is, in many cases, only partially analysed and disseminated thereby resulting in underutilization of the data. The session will address issues related to (i) identifying and prioritizing the uses for the data, (ii) as well as providing some illustrative examples on turning data into information for enhanced utilization for policy, on translation of policy targets into statistical indicators, and on opportunities and challenges of data analyses combining data from different sources for enhanced utilization for policy purposes.",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentations by:",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "UNSD",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 7/UNSD_1.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "UNSD",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 7/UNSD_2.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 2,
+                    "Title": "Mark Priestley (University of Leeds)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 7/Priestley.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 16,
+            "ItemStart": "16:00",
+            "ItemEnd": "16:15",
+            "itemTitle": "Coffee break",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 17,
+            "ItemStart": "16:15",
+            "ItemEnd": "18:00",
+            "itemTitle": "Session 7 – Dissemination and utilization of data (Contd.)",
+            "ItemDescription": null,
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentations by",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Steen Bengtsson (Danish Centre of Applied Social Science)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 7/Steen_Bengtsson.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Stefanos Grammenos (Centre for European Social and Economic Policy)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 7/S_GRAMMENOS.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 2,
+                    "Title": "Population Division",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 7/UNPD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "AgendaId": 2,
+        "Date": "Friday, 14 July 2017",
+        "Items": [
+          {
+            "ItemId": 0,
+            "ItemStart": "10:00",
+            "ItemEnd": "11:30",
+            "itemTitle": "Session 8 – Questions on disability",
+            "ItemDescription": "The session will introduce international recommendations for population and housing censuses, recommended questions of the Washington Group to be asked to identify persons with disabilities in population and housing censuses, as well as some reviews on questions asked by countries in national censuses of the 2010 round. The session will also provide some instruments for measurement of disability in surveys.",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "(i) Censuses",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Presentation on the census guidelines by UNSD",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/UNSD_presentation 1.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Presentation on the WG-SS by Washington Group",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/WG_presentation 2.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 2,
+                    "Title": "Presentation by UNSD",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/UNSD_presentation 3.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 3,
+                    "Title": "Presentation by UNSD",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/UNSD_presentation 4.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 1,
+            "ItemStart": "11:30",
+            "ItemEnd": "11:45",
+            "itemTitle": "Coffee break",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 2,
+            "ItemStart": "11:45",
+            "ItemEnd": "13:00",
+            "itemTitle": "Session 8 –  Questions on disability (Contd.)",
+            "ItemDescription": null,
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "(ii) Surveys",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Presentation on the WG-ES by Washington Group",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/WG_presentation 5.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Presentation on the MDS by WHO",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/WHO_presentation 6.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 2,
+                    "Title": "Presentation on the American Community Survey by USA (US Census Bureau)",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/US Census_presentation 7.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 3,
+                    "Title": "Presentation by UNSD",
+                    "URL": "meetings/2017/new-york--disability-egm/Session 8/UNSD_presentation 8.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 3,
+            "ItemStart": "13:00",
+            "ItemEnd": "15:00",
+            "itemTitle": "Lunch",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 4,
+            "ItemStart": "15:00",
+            "ItemEnd": "16:00",
+            "itemTitle": "Session 9 –  Draft outline of the revised Guidelines and Principles for the Development of Disability Statistics",
+            "ItemDescription": null,
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Presentation on the draft Guidelines by UNSD",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/new-york--disability-egm/Session 9/UNSD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 5,
+            "ItemStart": "16:00",
+            "ItemEnd": "17:00",
+            "itemTitle": "Session 10 – Conclusions and way forward",
+            "ItemDescription": "The session will make concluding remarks based on the outcome of the discussions on next steps in the revision of the Guidelines.",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 6,
+            "ItemStart": "17:00",
+            "ItemEnd": "17:15",
+            "itemTitle": "Closing session",
+            "ItemDescription": null,
+            "Slots": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "EventId": 1,
+    "Type": null,
+    "Title": "Regional Meeting on Strengthening the Collection and Use of International Migration Data in the Context of the 2030 Agenda for Sustainable Development",
+    "Start": "31 JANUARY 2017",
+    "End": "03 FEBRUARY 2017",
+    "CountryCode": "THA",
+    "CountryName": "Thailand",
+    "City": "Bangkok",
+    "Venue": "",
+    "Description": "The Regional Meeting is organized by the United Nations Statistics Division (UNSD) in collaboration with the United Nations Economic and Social Commission for Asia and the Pacific (ESCAP), and is scheduled to be held at the United Nations Conference Centre (UNCC), in Bangkok. \n\nThe workshop is jointly organised by the United Nations Department of Economic and Social Affairs (represented by Statistics Division (UNSD) and Population Division (UNPD)) and the United Nations Economic and Social Commission for Asia and the Pacific (represented by the Statistics Division and the Social Development Division), for selected countries in South and South-East Asia. The workshop aims to increase the capacity of participating countries to produce comprehensive national migration data that meets international standards, and to enhance understanding of the uses and limitations of migration data for policy purposes and for the achievement of the 2030 Agenda for Sustainable Development. ",
+    "Contacts": [],
+    "Topics": [
+      {
+        "TopicId": 0,
+        "Content": "migration statistics"
+      },
+      {
+        "TopicId": 1,
+        "Content": "international migration statistics"
+      },
+      {
+        "TopicId": 2,
+        "Content": "SDGs"
+      }
+    ],
+    "Image": "meetings/2017/bangkok--international-migration-data/bangkok-city.jpg",
+    "EventDocuments": [
+      {
+        "EventDocumentId": 0,
+        "Title": "Agenda",
+        "URL": "meetings/2017/bangkok--international-migration-data/Work programme_Final.pdf",
+        "Type": "Document"
+      },
+      {
+        "EventDocumentId": 1,
+        "Title": "Concept note",
+        "URL": "meetings/2017/bangkok--international-migration-data/Concept note ESCAP regional workshop_20161110.pdf",
+        "Type": "Document"
+      },
+      {
+        "EventDocumentId": 2,
+        "Title": "Information note",
+        "URL": "meetings/2017/bangkok--international-migration-data/Information note_Migration Data Workshop.pdf",
+        "Type": "Document"
+      },
+      {
+        "EventDocumentId": 3,
+        "Title": " List of Participants",
+        "URL": "meetings/2017/bangkok--international-migration-data/List of Participants.pdf",
+        "Type": "Document"
+      }
+    ],
+    "Agendas": [
+      {
+        "AgendaId": 0,
+        "Date": "Tuesday, 31 January 2017",
+        "Items": [
+          {
+            "ItemId": 0,
+            "ItemStart": "8:30",
+            "ItemEnd": "9:00",
+            "itemTitle": "Registration",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 1,
+            "ItemStart": "9:00",
+            "ItemEnd": "9:30",
+            "itemTitle": "Session 1: Opening of the workshop ",
+            "ItemDescription": null,
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Margarita Guerrero",
+                "SpeakerPosition": "Director",
+                "Organization": "Statistics Division, UNESCAP",
+                "Country": null,
+                "Title": "Opening remarks",
+                "Description": null,
+                "SlotDocuments": []
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Ms. Keiko Osaki-Tomita",
+                "SpeakerPosition": "Chief, Demographic and Social Statistics Branch",
+                "Organization": "Statistics Division, UNDESA",
+                "Country": null,
+                "Title": "Opening remarks",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Objectives, programme and introduction, UNSD",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 2/Introduction of WS.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ItemId": 2,
+            "ItemStart": "9:30",
+            "ItemEnd": "10:15",
+            "itemTitle": "Session 2: Introduction to the workshop",
+            "ItemDescription": null,
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": "UNDESA",
+                "Country": null,
+                "Title": "Logistics and introduction of participants",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 3,
+            "ItemStart": "10:15",
+            "ItemEnd": "10:30",
+            "itemTitle": "Coffee Break",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 4,
+            "ItemStart": "10:30",
+            "ItemEnd": "12:15",
+            "itemTitle": "Session 3: International migration and development: Implication for data collection",
+            "ItemDescription": "The session reviews global, regional and national policy initiatives related to international migration, discusses their implications for data collection and identifies challenges related to the collection and use of migration-related data.\n\nKey questions for country presentations:\n- What are the migration-relevant policy issues in your country?\n- What data are needed to address the policy issues? Are data available?\n- What are the data gaps? What are the challenges in collecting those data?",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Keiko Osaki-Tomita",
+                "SpeakerPosition": "Chief, Demographic and Social Statistics Branch",
+                "Organization": "Statistics Division, UNDESA",
+                "Country": null,
+                "Title": "The Sustainable Development Goals and the New York Declaration for Refugees and Migrants: implication for migration data",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 3/Session 3 UNSD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Mr. Yanhong Zhang",
+                "SpeakerPosition": null,
+                "Organization": "ESCAP",
+                "Country": null,
+                "Title": "The migration policy and statistics nexus ",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 3/Session 3 ESCAP.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": "Ms. Kamrunnahar",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Bangladesh ",
+                "Title": "Policy needs for data on international migration",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 3/Session 3 Bangladesh.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": " Ms. Castillo",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Philippines",
+                "Title": "Migration data required from policy makers, whether statistics are available; how information collected from various ministries and coordination mechanisms",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 3/Session 3 Philippines.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 4,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 5,
+            "ItemStart": "12:15",
+            "ItemEnd": "14:00",
+            "itemTitle": "Lunch",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 6,
+            "ItemStart": "14:00",
+            "ItemEnd": "15:30",
+            "itemTitle": "Session 4: Concepts and sources of international migration data: an overview",
+            "ItemDescription": "The session provides information on internationally agreed concpets and definitions related to international migration, as well as on the variety of sources which can be used to generate data on international migration, their strengths and limitations\n\nKey questions for country presentations:\n\n- How are international migrants defined in your country? Statistical definition? Administrative definition? Does the definition vary across data sources?\n\n- What major sources of migration statistics are available in your country?\n\n- Is there a coordination mechanism to combine different sources of migration data?\n\n- What are the challenges in integrating multiple data sources? Any activities/plan in promoting integrating of multiple sources?",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Haoyi Chen",
+                "SpeakerPosition": null,
+                "Organization": "Statistics Division, UNDESA",
+                "Country": null,
+                "Title": "Key concepts and main sources of migration data",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "International Migration Statistics: concepts, definitions and sources, UNSD",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 4/Session 4 UNSD Concepts definitions.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Mr. Windiarto",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Indonesia",
+                "Title": "Sources of international migration statistics in the country; how sources work together; strength & limitations",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Indonesia",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 4/Session 4 Indonesia.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": "Mr. Poudyal",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Nepal",
+                "Title": "Sources of international migration statistics; how different sources coordinate with each other; evalution of existing data in response to policy needs",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Nepal",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 4/Session 4 Nepal.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": "Mr. Saddhananda",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Sri Lanka",
+                "Title": "Different sources of international migration statistics: population census (on emigration); border surveys; administrative sources on labour migration; quality assessment of each; how sources work together)",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Sri Lanka",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 4/Session 4 Sri Lanka.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 4,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 7,
+            "ItemStart": "15:30",
+            "ItemEnd": "15:45",
+            "itemTitle": "Coffee Break",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 8,
+            "ItemStart": "15:30",
+            "ItemEnd": "17:00",
+            "itemTitle": "Session 5 Concepts and sources of migration data: group discussion ",
+            "ItemDescription": "The session provides an opportunity for participants to make use of the concepts and knowledge provided in the previous session.",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Group exercise (30 minutes) ",
+                "Description": "Exercises on identifying an international migrant. The difference between \\international migrant\" and proxy measures such as \"foreign-born\" or \"foreigners\" (to be developed)",
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Group exercises",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 5/Session 5 group exercises.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Reporting back to the group (30 minutes)",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Group exercises summary",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 5/Session 5 group exercises summary.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Wrap-up (15 minutes)",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "AgendaId": 1,
+        "Date": "Wednesday, 01 February 2017",
+        "Items": [
+          {
+            "ItemId": 0,
+            "ItemStart": "9:00",
+            "ItemEnd": "12:00",
+            "itemTitle": "Session 6a: Improving the collection, analysis, dissemination and use of data from population and housing censuses to measure immigration",
+            "ItemDescription": "The session provides participants with an overview of the uses of population censuses to measure immigration, and the characteristics of migrants, based on examples from national censuses. \n\nKey questions for country presentations:\n- What are the policy relevant data requirement on immigrants in your country?\n- How adequate are existing census methodologies in gathering information on such information?\n- To what extent is your country implementing the United Nations recommendations on censuses?\n- What steps can be taken to improve data-gathering on immigration through censuses?\n- What migration data are currently produced by your country? Could more be done? What are the challenges?\n- Important migration data for your country that could be gathered through censuses?",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Haoyi Chen",
+                "SpeakerPosition": null,
+                "Organization": "UNDESA",
+                "Country": null,
+                "Title": "The 2020 round of population censuses: United Nations recommendations and their implementations ",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Collecting better census data on international migration: UN recommendations, UNSD",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 6a/Session 6 UNSD census.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Ms. Keiko Osaki-Tomita",
+                "SpeakerPosition": null,
+                "Organization": "UNDESA",
+                "Country": null,
+                "Title": "Using census data to assess global migration trends and to inform migration related goals and targets",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Uses of census data, UNSD",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 6a/Session 6a UNSD Migrant Stock.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": "Mr. Karki",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Nepal",
+                "Title": "Experience of census in collecting data on emigrants: questionnaire design; quality assessment; data dissemination; plan for the next round",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Nepal",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 6a/Session 6 Nepal.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 1,
+            "ItemStart": "12:00",
+            "ItemEnd": "13:30",
+            "itemTitle": "Lunch",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 2,
+            "ItemStart": "13:30",
+            "ItemEnd": "16:30",
+            "itemTitle": "Session 6b: Improving the collection, analysis, dissemination and use of data from population and housing censuses to measure emigration ",
+            "ItemDescription": "The session provides participants with an overview of the uses of population censuses to measure emigration and remittances, based on examples from national censuses.\n\n- Key questions for country presentations:\n\n- What information is required to measure emigration? Is this information on emigration available?\n- What opportunities are available to use censuses to gather information on emigration?\n- To what extent is your country able to make use of these opportunities?\n- What steps can be taken to improve data-gathering on emigration through censuses?\n- What are the most important indicators that would be useful for your country that could be gathered through censuses?",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Haoyi Chen",
+                "SpeakerPosition": null,
+                "Organization": "UNDESA",
+                "Country": null,
+                "Title": "Examples of data-gathering on emigration in the 2010 round of population censuses",
+                "Description": null,
+                "SlotDocuments": []
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Mr. Howlader",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Bangladesh",
+                "Title": "Experience of census in collecting data on emigrants and returned migrants: questionnaire design; quality assessment; data dissemination; plan for the next round",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 6b/Session 6 Bangladesh.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Group exercises",
+                "Description": "Review of participants' own latest census questionnaire and identify potential improvements",
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Group exercise - Bangladesh",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 6b/Session 6b Exercises BGD2011enL.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Group exercise - Nepal",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 6b/Session 6b Exercises NPL2011enHhS.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 2,
+                    "Title": "Group exercise - Philippines",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 6b/Session 6b Exercises PHL2010enHhS.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "AgendaId": 2,
+        "Date": "Thursday, 02 February 2017",
+        "Items": [
+          {
+            "ItemId": 0,
+            "ItemStart": "9:00",
+            "ItemEnd": "12:00",
+            "itemTitle": "Session 7: Enhancing the use of administrative sources to measure migration",
+            "ItemDescription": "The session identifies good practices in compiling, analysing and disseminating data from administrative sources that is relevant for international migration, especially with regards to labour migration; addresses the strengths and weaknesses of using administrative sources for migration data; and provides guidance for compiling, analysing and disseminating data generated from administrative sources.\n\nKey questions for country presentations:\n- What type of administrative system is relevant to migration in your country?\n- What migration data are generated from administrative sources?\n- Is there sharing of information among different institutions, including national statistical office and various administrative agencies in the country?\n- How could sharing of information be facilitated?\n",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Haoyi Chen",
+                "SpeakerPosition": null,
+                "Organization": "UNDESA",
+                "Country": null,
+                "Title": "Administrative data sources to measure migration: An introduction",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Use of administrative sources for international migration statistics, UNSD",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 7/Session 7 UNSD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Mr. Toshio Naito",
+                "SpeakerPosition": null,
+                "Organization": "UNHCR ",
+                "Country": null,
+                "Title": "Practical example of using registration data to produce statistics on refugees and asylum seekers",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "UNHCR's experiences and challenges - Statistics on refugees, UNHCR",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 7/Session 7 UNHCR.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": "Ms. Tingga",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Philippines",
+                "Title": "Overseas worker: how data are collected/compiled; data quality assessment; lessons learnt",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Philippines",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 7/Session 7 Philippines.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": "Mr. Hemantha",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Sri Lanka",
+                "Title": "Collecting and analysing data on international migration, quality assessment",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Sri Lanka",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 7/Session 7 Sri Lanka.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 4,
+                "SpeakerName": "Ms. Sritubtim",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Thailand",
+                "Title": "How labour demand and supply data are collected? How does migrants figure in those numbers? How labour permit information is collected/used for statistics purposes? What about other types of administrative sources?",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Thailand",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 7/Session 7 Thailand.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 5,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 1,
+            "ItemStart": "12:00",
+            "ItemEnd": "13:30",
+            "itemTitle": "Lunch",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 2,
+            "ItemStart": "13:30",
+            "ItemEnd": "16:30",
+            "itemTitle": "Session 8: Using surveys as a tool to measure migration and its impact ",
+            "ItemDescription": "The session discusses experiences and identify good practices in using household and border surveys to assess the status and identify the needs of migrant families, to elucidate migratory patterns and flows, and to maximize the contribution of migration to national development. This section also addresses opportunities and challenges of using existing household surveys for the purpose of migration as well as designing and implementing specialized migration surveys.\n\nKey questions for country presentations:\n\n- How have surveys been used in your country to international migration data?\n- Are data publically available?\n- What successes/challenges have been faced in using surveys?\n- What are the currently running surveys in the country? Frequency and sample size of those surveys?\n- Are basic migration questions included in those surveys? Any plans in attaching a migration module or add a few migration questions to any survey in the near future?\n- How can there be greater systematization in use of surveys?",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Tanja Brondsted Sejersen",
+                "SpeakerPosition": null,
+                "Organization": "UNESCAP",
+                "Country": null,
+                "Title": "How to collect migration statistics through surveys",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 8/Session 8 ESCAP.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Mr. Yakav",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "India",
+                "Title": "Household surveys in collecting international migration data - lessons learnt, future plans",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "India",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 8/Session 8 India.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Pakistan",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 8/Session 8 Pakistan.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 2,
+                    "Title": "Thailand",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 8/Session 8 Thailand.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": "Mr. Bukhari",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Pakistan",
+                "Title": "Labour force surveys in collecting international migration data - lessons learnt, future plans",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Pakistan",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 8/Session 8 Pakistan.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Thailand",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 8/Session 8 Thailand.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": "Ms. Laosutaen",
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": "Thailand",
+                "Title": "Labour force and migration survey, or other types of surveys collecting data on international migration - lessons learnt and future plans",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Thailand",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 8/Session 8 Thailand.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 4,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "AgendaId": 3,
+        "Date": "Friday, 03 February 2017",
+        "Items": [
+          {
+            "ItemId": 0,
+            "ItemStart": "9:00",
+            "ItemEnd": "12:00",
+            "itemTitle": "Session 9: Implementing the 2030 Agenda for Sustainable Development: The role of migration-related indicators",
+            "ItemDescription": "The session develops migration-related indicators and to understand the data needs to formulate evidence-based migration policies",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Keiko Osaki-Tomita",
+                "SpeakerPosition": null,
+                "Organization": "UNDESA",
+                "Country": null,
+                "Title": "Identifying and measuring migration-related SDG indicators - ",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 9/Session 9 UNSD.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Ms. Mariko Tomiyama",
+                "SpeakerPosition": null,
+                "Organization": "IOM",
+                "Country": null,
+                "Title": "Measuring migration governance through the Migration Governance Index",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 9/Session 9 IOM.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": "Mr. Sebastian Boll",
+                "SpeakerPosition": null,
+                "Organization": "UN-ACT",
+                "Country": null,
+                "Title": "The Coordinated Mekong Ministerial Initiative against Trafficking: developing and implementing regional indicators on victims of trafficking",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Monitoring and reporting in the Coordinated Mekong Ministerial Initiative against Trafficking (COMMIT Process)",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 9/Session 9 UNAct.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              },
+              {
+                "SlotId": 4,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Group exercise:",
+                "Description": "- Are the proposed migration-relevant indicators relevant for your country?\n- Are there any further disaggregations that are relevant for your country (sex, disability etc)?\n- What are the migration data-related implications of the 2030 Agenda?\n- Are data already available for some of the indicators?\n- Are there challenges in collecting such data? What are the data gaps?\n- Any plan for methodological development?\n",
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 9/Session 9 group exercises.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 5,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Reporting back",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 1,
+            "ItemStart": "12:00",
+            "ItemEnd": "13:30",
+            "itemTitle": "Lunch",
+            "ItemDescription": null,
+            "Slots": []
+          },
+          {
+            "ItemId": 2,
+            "ItemStart": "13:30",
+            "ItemEnd": "16:30",
+            "itemTitle": "Session 10: Promoting regional cooperation, capacity building and data exchange on migration data ",
+            "ItemDescription": "The session works with participants to understand the necessity of regional cooperation on migration data, especially with regards to migration data from countries of destination\n\nKey questions for discussion:\n\n- How can countries of origin encourage sharing of data that may be deemed sensitive?\n- How can regional cooperation within SAARC/ASEAN on data exchange be promoted?\n- What data should be exchanged as a priority?",
+            "Slots": [
+              {
+                "SlotId": 0,
+                "SpeakerName": "Ms. Haoyi Chen",
+                "SpeakerPosition": null,
+                "Organization": "UNDESA",
+                "Country": null,
+                "Title": "Exchanging migration data: A critical link to inform policy",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Using data exchange to measure emigration (part 1)",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 10/Session 10 UNSD.pdf",
+                    "Type": "Presentation"
+                  },
+                  {
+                    "SlotDocumentId": 1,
+                    "Title": "Using data exchange to measure emigration (part 2)",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 10/Session 10 UNSD_v2.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 1,
+                "SpeakerName": "Mr. Nilim Baruah",
+                "SpeakerPosition": null,
+                "Organization": "ILO",
+                "Country": null,
+                "Title": "International Labour Migration Statistics Database in the ASEAN",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "International Labour Migration Statistics Database in the ASEAN, ILO",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 10/Session 10 ILO.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 2,
+                "SpeakerName": "Mr. Paul Tacon",
+                "SpeakerPosition": null,
+                "Organization": "ESCAP",
+                "Country": null,
+                "Title": "Regional consultative processes as a means of facilitating data exchange on migration",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": null,
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 10/Session 10 ESCAP.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 3,
+                "SpeakerName": "Mr. Lars Johann Lonnback",
+                "SpeakerPosition": null,
+                "Organization": "Bali Process",
+                "Country": null,
+                "Title": "Bali Process experiences in data exchange",
+                "Description": null,
+                "SlotDocuments": [
+                  {
+                    "SlotDocumentId": 0,
+                    "Title": "Promoting regional cooperation, capacity building and data exchange on migration data, Bali Process",
+                    "URL": "meetings/2017/bangkok--international-migration-data/Session 10/Session 10 Bali process.pdf",
+                    "Type": "Presentation"
+                  }
+                ]
+              },
+              {
+                "SlotId": 4,
+                "SpeakerName": null,
+                "SpeakerPosition": null,
+                "Organization": null,
+                "Country": null,
+                "Title": "Comments and discussion",
+                "Description": null,
+                "SlotDocuments": []
+              }
+            ]
+          },
+          {
+            "ItemId": 3,
+            "ItemStart": "16:30",
+            "ItemEnd": "17:00",
+            "itemTitle": "Conclusion and closing of the workshop",
+            "ItemDescription": null,
+            "Slots": []
+          }
+        ]
+      }
+    ]
+  }
+]

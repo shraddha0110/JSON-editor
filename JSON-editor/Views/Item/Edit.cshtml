@@ -1,0 +1,60 @@
+@model JSONEditor.Models.Item
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <h4>Item</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="ItemId" />
+        <input type="hidden" name="EventId" id="EventId" value="@ViewBag.EventId" />
+        <input type="hidden" name="AgendaId" id="AgendaId" value="@ViewBag.AgendaId" />
+        
+        <div class="form-group">
+            <label asp-for="ItemStart" class="col-md-2 control-label">Start Time</label>
+            <div class="col-md-10">
+                <input asp-for="ItemStart" class="form-control" />
+                <span asp-validation-for="ItemStart" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ItemEnd" class="col-md-2 control-label">End Time</label>
+            <div class="col-md-10">
+                <input asp-for="ItemEnd" class="form-control" />
+                <span asp-validation-for="ItemEnd" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ItemTitle" class="col-md-2 control-label">Title</label>
+            <div class="col-md-10">
+                <input asp-for="ItemTitle" class="form-control" />
+                <span asp-validation-for="ItemTitle" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ItemDescription" class="col-md-2 control-label">Description</label>
+            <div class="col-md-10">
+                <textarea asp-for="ItemDescription" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="ItemDescription" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

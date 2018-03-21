@@ -1,5 +1,14 @@
 ﻿<Properties StartupConfiguration="{697DEEF5-8BC4-4B8F-AC7B-5E12F81FEBAB}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JSON-editor/wwwroot/css/site.min.css">
+    <Files>
+      <File FileName="JSON-editor/Program.cs" Line="21" Column="1" />
+      <File FileName="JSON-editor/Controllers/HomeController.cs" Line="34" Column="6" />
+      <File FileName="JSON-editor/wwwroot/css/site.css" Line="66" Column="41" />
+      <File FileName="JSON-editor/Views/Shared/_Layout.cshtml" Line="16" Column="53" />
+      <File FileName="JSON-editor/wwwroot/css/site.min.css" Line="45" Column="7" />
+      <File FileName="JSON-editor/Views/Home/Index.cshtml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -1,0 +1,45 @@
+@model JSONEditor.Models.SlotDocument
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this Document?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.URL)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.URL)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="SlotDocumentId" />
+        <input type="hidden" name="EventId" id="EventId" value="@ViewBag.EventId" />
+        <input type="hidden" name="AgendaId" id="AgendaId" value="@ViewBag.AgendaId" />
+        <input type="hidden" name="ItemId" id="ItemId" value="@ViewBag.ItemId" />
+        <input type="hidden" name="SlotId" id="SlotId" value="@ViewBag.SlotId" />
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-controller="Home" asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

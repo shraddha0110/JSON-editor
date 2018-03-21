@@ -1,27 +1,71 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: "Trebuchet MS", Times, sans-serif;
 }
 
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-input, select, textarea {
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
     max-width: 280px;
 }
 
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+.upload {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+.events, .contacts, .topics, .event-documents, .agendas, .items, .slots, .slot-documents {
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 5px 2px 5px 2px;
+    padding: 5px;
+    color: black;
 }
 
-@media screen and (max-width:767px) {
+.event, .contact, .topic, .event-document, .agenda, .item, .slot, .slot-document {
+    padding-left: 5px;
+}
+
+.agenda, .item, .slot {
+    border-bottom: 1px dashed white;
+    padding-top: 5px;
+}
+
+.row {
+    padding-bottom: 5px;
+}
+
+.events {
+    background-color: white;
+    border: 3px solid #607D8B;
+}
+
+.contacts, .topics, .event-documents, .agendas {
+    background-color: #90CAF9;
+}
+
+.items, .slot-documents {
+    background-color: #E3F2FD;
+}
+
+.slots {
+    background-color: #BBDEFB;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
     .carousel-caption {
         display: none;
     }

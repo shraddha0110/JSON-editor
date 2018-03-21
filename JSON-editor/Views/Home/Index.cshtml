@@ -1,108 +1,375 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "JSONEditor";
 }
+@model IEnumerable<JSONEditor.Models.Event>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how to build ASP.NET apps that can run anywhere.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="upload">
+                <form method="post" asp-action="Index" asp-controller="Home" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="uploadForm">Upload a new JSON file</label>
+                        <input type="file" name="files" class="form-control-file" id="uploadForm" onchange="showUploadButton()">
+                        <button type="submit" id="uploadbtn" class="btn btn-sm btn-primary" style="visibility:hidden"><span class="glyphicon glyphicon-file"></span>Upload</button>
+                    </div>
+                </form>
             </div>
         </div>
-        <div class="item">
-            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner3.svg" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner4.svg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
+        <div class="col-md-6">
+            <div class="upload">
+                <div class="form-group">
+                    <strong>Create a new Event</strong>
+                    <br />
+                    <br />
+                    <a asp-action="CreateNew" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-edit"></span>Create</a>
+                </div>
             </div>
         </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+
+    <!--Events-->
+    <div>
+        <div class="row">
+            <div class="col-md-10">
+                <h2>Events</h2>
+            </div>
+            <div class="col-md-2">
+                <h2>
+                    <a class="pull-right" asp-action="Create"><span class="glyphicon glyphicon-plus"></span></a>
+                </h2>
+            </div>
+        </div>
+        <div>
+            @foreach (var item in Model)
+            {
+                <div class="events">
+                    <div class="row">
+                        <!--Title-->
+                        <div class="col-md-11">
+                            <h4>
+                                <strong class="heading">@Html.DisplayFor(modelItem => item.Title)</strong>
+                            </h4>
+                        </div>
+                        <div class="col-md-1">
+                            <h4>
+                                <a asp-action="Edit" asp-route-id="@item.EventId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                <a asp-action="Delete" asp-route-id="@item.EventId"><span class="glyphicon glyphicon-trash"></span></a>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!--Type-->
+                        <div class="col-md-12">
+                            <strong class="sub-heading">@Html.DisplayNameFor(model => model.Type):</strong>
+                            @Html.DisplayFor(modelItem => item.Type)
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Start-->
+                        <div class="col-md-6">
+                            <div>
+                                <strong class="sub-heading">Start Date:</strong>
+                                @Html.DisplayFor(modelItem => item.Start)
+                            </div>
+                        </div>
+                        <!--End-->
+                        <div class="col-md-6">
+                            <div>
+                                <strong class="sub-heading">End Date:</strong>
+                                @Html.DisplayFor(modelItem => item.End)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Country Code-->
+                        <div class="col-md-6">
+                            <div>
+                                <strong class="sub-heading">Country Code:</strong>
+                                @Html.DisplayFor(modelItem => item.CountryCode)
+                            </div>
+                        </div>
+                        <!--Country Name-->
+                        <div class="col-md-6">
+                            <div>
+                                <strong class="sub-heading">Country:</strong>
+                                @Html.DisplayFor(modelItem => item.CountryName)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--City-->
+                        <div class="col-md-6">
+                            <div>
+                                <strong class="sub-heading">@Html.DisplayNameFor(model => model.City):</strong>
+                                @Html.DisplayFor(modelItem => item.City)
+                            </div>
+                        </div>
+                        <!--Venue-->
+                        <div class="col-md-6">
+                            <strong class="sub-heading">@Html.DisplayNameFor(model => model.Venue):</strong>
+                            @Html.DisplayFor(modelItem => item.Venue)
+                        </div>
+                    </div>
+
+                    <!--Description-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <strong class="sub-heading">@Html.DisplayNameFor(model => model.Description):</strong>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </div>
+                    </div>
+
+                    <!--Contacts-->
+                    <div class="contacts">
+                        <strong class="heading">@Html.DisplayNameFor(model => model.Contacts):</strong>
+                        <a class="pull-right" asp-controller="Contact" asp-action="Create" asp-route-EventId="@item.EventId"><span class="glyphicon glyphicon-plus"></span></a>
+
+                        @foreach (var c in item.Contacts)
+                        {
+                            <div class="contact">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <strong class="sub-heading">@Html.DisplayNameFor(model => c.Name):</strong>
+                                        @Html.DisplayFor(modelItem => c.Name)
+                                    </div>
+                                    <div class="col-md-3">
+                                        <strong class="sub-heading">@Html.DisplayNameFor(model => c.Phone):</strong>
+                                        @Html.DisplayFor(modelItem => c.Phone)
+                                    </div>
+                                    <div class="col-md-4">
+                                        <strong class="sub-heading">@Html.DisplayNameFor(model => c.Email):</strong>
+                                        @Html.DisplayFor(modelItem => c.Email)
+                                    </div>
+                                    <div class="col-md-1">
+                                        <a asp-controller="Contact" asp-action="Edit" asp-route-EventId="@item.EventId" asp-route-ContactId="@c.ContactId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                        <a asp-controller="Contact" asp-action="Delete" asp-route-EventId="@item.EventId" asp-route-ContactId="@c.ContactId"><span class="glyphicon glyphicon-trash"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <!--End of Contacts-->
+                    <!--Topics-->
+                    <div class="topics">
+                        <strong class="heading">@Html.DisplayNameFor(model => model.Topics):</strong>
+                        <a class="pull-right" asp-controller="Topic" asp-action="Create" asp-route-EventId="@item.EventId"><span class="glyphicon glyphicon-plus"></span></a>
+
+                        @foreach (var t in item.Topics)
+                        {
+                            <div class="topic">
+                                <div class="row">
+                                    <div class="col-md-11">
+                                        @Html.DisplayFor(modelItem => t.Content)
+                                    </div>
+                                    <div class="col-md-1">
+                                        <a asp-controller="Topic" asp-action="Edit" asp-route-EventId="@item.EventId" asp-route-TopicId="@t.TopicId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                        <a asp-controller="Topic" asp-action="Delete" asp-route-EventId="@item.EventId" asp-route-TopicId="@t.TopicId"><span class="glyphicon glyphicon-trash"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                    <!--End of Topics-->
+                    <!--Image-->
+                    <div>
+                        <strong class="sub-heading">@Html.DisplayNameFor(model => model.Image):</strong>
+                        @Html.DisplayFor(modelItem => item.Image)
+                    </div>
+
+                    <!--Event Document-->
+                    <div class="event-documents">
+                        <strong class="heading">Documents:</strong>
+                        <a class="pull-right" asp-controller="EventDocument" asp-action="Create" asp-route-EventId="@item.EventId"><span class="glyphicon glyphicon-plus"></span></a>
+
+                        @foreach (var ed in item.EventDocuments)
+                        {
+                            <div class="event-document">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <strong class="sub-heading">@Html.DisplayNameFor(model => ed.Title):</strong>
+                                        @Html.DisplayFor(modelItem => ed.Title)
+                                    </div>
+                                    <div class="col-md-6">
+                                        <strong class="sub-heading">@Html.DisplayNameFor(model => ed.URL):</strong>
+                                        @Html.DisplayFor(modelItem => ed.URL)
+                                    </div>
+                                    <div class="col-md-2">
+                                        <strong class="sub-heading">@Html.DisplayNameFor(model => ed.Type):</strong>
+                                        @Html.DisplayFor(modelItem => ed.Type)
+                                    </div>
+                                    <div class="col-md-1">
+                                        <a asp-controller="EventDocument" asp-action="Edit" asp-route-EventId="@item.EventId" asp-route-EventDocumentId="@ed.EventDocumentId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                        <a asp-controller="EventDocument" asp-action="Delete" asp-route-EventId="@item.EventId" asp-route-EventDocumentId="@ed.EventDocumentId"><span class="glyphicon glyphicon-trash"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <!--End of Event Document-->
+                    <!--Agendas-->
+                    <div class="agendas">
+                        <strong class="heading">Agenda:</strong>
+                        <a class="pull-right" asp-controller="Agenda" asp-action="Create" asp-route-EventId="@item.EventId"><span class="glyphicon glyphicon-plus"></span></a>
+
+                        @foreach (var a in item.Agendas)
+                        {<div class="agenda">
+                            <!--Date-->
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <strong class="sub-heading">@Html.DisplayNameFor(model => a.Date):</strong>
+                                    @Html.DisplayFor(modelItem => a.Date)
+                                </div>
+                                <div class="col-md-1">
+                                    <a asp-controller="Agenda" asp-action="Edit" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                    <a asp-controller="Agenda" asp-action="Delete" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId"><span class="glyphicon glyphicon-trash"></span></a>
+                                </div>
+                            </div>
+
+                            <!--Items-->
+                            <div class="items">
+                                <strong class="heading">@Html.DisplayNameFor(model => a.Items):</strong>
+                                <a class="pull-right" asp-controller="Item" asp-action="Create" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId"><span class="glyphicon glyphicon-plus"></span></a>
+
+
+                                @foreach (var i in a.Items)
+                                {
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <strong class="sub-heading">Start Time:</strong>
+                                                @Html.DisplayFor(modelItem => i.ItemStart)
+                                            </div>
+                                            <div class="col-md-2">
+                                                <strong class="sub-heading">End Time:</strong>
+                                                @Html.DisplayFor(modelItem => i.ItemEnd)
+                                            </div>
+                                            <div class="col-md-7">
+                                                <strong class="sub-heading">Title:</strong>
+                                                @Html.DisplayFor(modelItem => i.ItemTitle)
+                                            </div>
+                                            <div class="col-md-1">
+                                                <a asp-controller="Item" asp-action="Edit" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                                <a asp-controller="Item" asp-action="Delete" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId"><span class="glyphicon glyphicon-trash"></span></a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <strong class="sub-heading">Description:</strong>
+                                            @Html.DisplayFor(modelItem => i.ItemDescription)
+                                        </div>
+
+                                        <!--Slots-->
+                                        <div class="slots">
+                                            <strong class="heading">@Html.DisplayNameFor(model => i.Slots):</strong>
+                                            <a class="pull-right" asp-controller="Slot" asp-action="Create" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId"><span class="glyphicon glyphicon-plus"></span></a>
+
+
+                                            @foreach (var s in i.Slots)
+                                            {
+                                                <div class="slot">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <strong class="sub-heading">Speaker Name:</strong>
+                                                            @Html.DisplayFor(modelItem => s.SpeakerName)
+                                                        </div>
+                                                        <div class="col-md-5">
+                                                            <strong class="sub-heading">Speaker Position:</strong>
+                                                            @Html.DisplayFor(modelItem => s.SpeakerPosition)
+                                                        </div>
+                                                        <div class="col-md-1">
+                                                            <a asp-controller="Slot" asp-action="Edit" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId" asp-route-SlotId="@s.SlotId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                                            <a asp-controller="Slot" asp-action="Delete" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId" asp-route-SlotId="@s.SlotId"><span class="glyphicon glyphicon-trash"></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <strong class="sub-heading">@Html.DisplayNameFor(model => s.Organization):</strong>
+                                                            @Html.DisplayFor(modelItem => s.Organization)
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <strong class="sub-heading">@Html.DisplayNameFor(model => s.Country):</strong>
+                                                            @Html.DisplayFor(modelItem => s.Country)
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <strong class="sub-heading">@Html.DisplayNameFor(model => s.Title):</strong>
+                                                            @Html.DisplayFor(modelItem => s.Title)
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <strong class="sub-heading">@Html.DisplayNameFor(model => s.Description):</strong>
+                                                            @Html.DisplayFor(modelItem => s.Description)
+                                                        </div>
+                                                    </div>
+
+                                                    <!--Slot Documents-->
+                                                    <div class="slot-documents">
+                                                        <strong class="heading">Documents:</strong>
+                                                        <a class="pull-right" asp-controller="SlotDocument" asp-action="Create" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId" asp-route-SlotId="@s.SlotId"><span class="glyphicon glyphicon-plus"></span></a>
+
+                                                        @foreach (var sd in s.SlotDocuments)
+                                                        {
+                                                            <div class="slot-document">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <strong class="sub-heading">@Html.DisplayNameFor(model => sd.Title):</strong>
+                                                                        @Html.DisplayFor(modelItem => sd.Title)
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <strong class="sub-heading">@Html.DisplayNameFor(model => sd.URL):</strong>
+                                                                        @Html.DisplayFor(modelItem => sd.URL)
+                                                                    </div>
+                                                                    <div class="col-md-2">
+                                                                        <strong class="sub-heading">@Html.DisplayNameFor(model => sd.Type):</strong>
+                                                                        @Html.DisplayFor(modelItem => sd.Type)
+                                                                    </div>
+                                                                    <div class="col-md-1">
+                                                                        <a asp-controller="SlotDocument" asp-action="Edit" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId" asp-route-SlotId="@s.SlotId" asp-route-SlotDocumentId="@sd.SlotDocumentId"><span class="glyphicon glyphicon-pencil"></span></a>
+                                                                        <a asp-controller="SlotDocument" asp-action="Delete" asp-route-EventId="@item.EventId" asp-route-AgendaId="@a.AgendaId" asp-route-ItemId="@i.ItemId" asp-route-SlotId="@s.SlotId" asp-route-SlotDocumentId="@sd.SlotDocumentId"><span class="glyphicon glyphicon-trash"></span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        }
+
+                                                    </div>
+                                                    <!--End of Slot Documents-->
+                                                </div>
+                                            }
+
+                                        </div>
+                                        <!--End of Slot-->
+                                    </div>
+                                }
+
+                            </div>
+                            <!--End of Item-->
+                        </div>
+                        }
+
+                    </div>
+                    <!--End of Agenda-->
+                </div>
+                <hr />
+            }
+        </div>
+    </div>
+    <!--End of Event-->
+
+    <div>
+        <a class="btn btn-sm btn-success" asp-action="DownloadFile" style="visibility:@(ViewBag.ShowDownloadBtn)"><span class="glyphicon glyphicon-download-alt"></span>Download</a>
+    </div>
+    
+
+    
 </div>
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side libraries</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699318">Add client packages using Bower.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Run & Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
-</div>
+<script type="text/javascript">
+    function showUploadButton() {
+        document.getElementById("uploadbtn").style.visibility = "visible";
+    }
+</script>
