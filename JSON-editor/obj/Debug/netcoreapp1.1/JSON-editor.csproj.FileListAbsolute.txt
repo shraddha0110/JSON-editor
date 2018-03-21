@@ -1,0 +1,10 @@
+/Users/shraddha/Projects/JSON-editor/JSON-editor/bin/Debug/netcoreapp1.1/JSON-editor.deps.json
+/Users/shraddha/Projects/JSON-editor/JSON-editor/bin/Debug/netcoreapp1.1/JSON-editor.runtimeconfig.json
+/Users/shraddha/Projects/JSON-editor/JSON-editor/bin/Debug/netcoreapp1.1/JSON-editor.runtimeconfig.dev.json
+/Users/shraddha/Projects/JSON-editor/JSON-editor/bin/Debug/netcoreapp1.1/JSON-editor.dll
+/Users/shraddha/Projects/JSON-editor/JSON-editor/bin/Debug/netcoreapp1.1/JSON-editor.pdb
+/Users/shraddha/Projects/JSON-editor/JSON-editor/obj/Debug/netcoreapp1.1/JSON-editor.csprojResolveAssemblyReference.cache
+/Users/shraddha/Projects/JSON-editor/JSON-editor/obj/Debug/netcoreapp1.1/JSON-editor.csproj.CoreCompileInputs.cache
+/Users/shraddha/Projects/JSON-editor/JSON-editor/obj/Debug/netcoreapp1.1/JSON-editor.AssemblyInfo.cs
+/Users/shraddha/Projects/JSON-editor/JSON-editor/obj/Debug/netcoreapp1.1/JSON-editor.dll
+/Users/shraddha/Projects/JSON-editor/JSON-editor/obj/Debug/netcoreapp1.1/JSON-editor.pdb
